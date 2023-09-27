@@ -24,7 +24,7 @@ const Weather = () => {
   const getInput = (e) => {
     setInput(e.target.value)
   }
-
+  //get weather
   const getWeatherData = (e) => {
     if(e.key === 'Enter' && input === ""){
       setErrorMsg('Input cannot be empty');
